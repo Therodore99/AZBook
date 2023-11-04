@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+   <meta charset="utf-8">
+   <title>COMP5347 Assignment One</title>
+   <link rel="stylesheet" href="index.css" />
+   <script type="text/javascript" src="index.js"></script>
+   
+</head>
+<body>
+   <h1>AZBook</h1>
+
+   <form method="get">
+      <div id="searchBox">
+         <a>
+            <input type="text" name="title" id="searchInput" placeholder="Case sensitive">                        
+            <button type="button" id="searchBtn">Search</button>
+         </a>
+         
+         <a>
+            <select name="123" id="categorySelect">
+               <option value="none">Category</option>
+               <option value="Art">Art</option>
+               <option value="Science History">Science History</option>
+               <option value="Action and Adventure">Action and Adventure</option>
+               <option value="Health">Health</option>
+               <option value="Science Fiction">Science Fiction</option>
+               <option value="Astronomy(test)">Astronomy(test)</option>
+            </select>
+
+            <button type="button" id="filterBtn">Filter</button>
+
+         </a>
+
+         <a id="addResetButton">
+            <input type="button" value="Add to cart" id="addBtn">
+            <input type="reset" value="Reset the cart" id="resetBtn">
+            <img src="images/shopping_cart.png" alt="shopping_cart" height="25" id="shopCart">
+            <span id="shoppingCart">(0)</span>
+         </a>
+
+         <a id="darkToggle">
+            <i class="button"></i>
+         </a>
+
+      </div>
+
+      <div id="listBox">
+         <table id="Category">
+            <thead id="thead"> 
+               <tr>
+                  <th></th>
+                  <th>Title</th>
+                  <th>Ratings</th>
+                  <th>Authors</th>
+                  <th>Year</th>
+                  <th>Price</th>
+                  <th>Publisher</th>
+                  <th>Category</th>
+                  
+               </tr>
+            </thead>
+
+         </table>
+      </div>   
+   </form>
+
+   
+
+</body>
+</html>

@@ -1,0 +1,157 @@
+﻿/* general text formatting */
+
+h1, h2, h3, nav, footer {
+ font-family: Georgia, Cambria, "Times New Roman", serif;
+ margin-left: 4.1em;
+}
+body h1.dark{
+   color: #EBF4FB;
+}
+
+body {
+   font-family: "Lucida Sans", Verdana, Arial, sans-serif;
+   font-size: 80%;
+   min-width:1500px;
+}
+
+body.dark{
+   background-color: rgb(78, 75, 75);
+}
+
+table.dark{
+   background-color: rgb(78, 75, 75);
+   
+}
+div.dark, a.dark{
+   background-color: rgb(78, 75, 75);
+}
+
+div#searchBox, div#listBox {
+   margin: 0.25em auto;
+   background-color: #EBF4FB;
+   padding: 1em;
+   border: 1pt solid #95BEF0;
+   width: 80%;
+} 
+
+div#searchBox.dark, div#listBox.dark {
+   margin: 0.25em auto;
+   background-color: rgb(78, 75, 75);
+   padding: 1em;
+   border: 1pt solid #bed6f3;
+   width: 80%;
+   color: white;
+} 
+
+#thead.dark{
+   background-color: rgb(56, 53, 53);
+   
+}
+
+div#searchBox { margin-top: 1em; }
+div#searchBox.dark { margin-top: 1em; }
+
+div#listBox { 
+   margin-top: 1em; 
+   background-color: #FAFCFF;
+   }
+
+div#listBox.dark { 
+   margin-top: 1em; 
+   }
+
+table {
+   border: collapse; 
+   border-spacing: 0;
+
+}
+
+table tbody td{
+   border-top: 1pt solid #95BEF0;   
+   line-height: 1.5em;
+   
+   vertical-align: middle;
+   padding: 0.5em 0.75em;
+}
+table thead th {
+   text-align: left;
+   padding: 0.25em 0.75em; 
+}
+table thead {
+   background-color: #EBF4FB ;
+}
+
+table tbody td:first-child  {
+   text-align: center;
+   padding: 0.5em 0em;   
+   
+}
+
+table tbody tr.dark{
+   background-color: rgb(78, 75, 75);
+
+}
+
+table tbody td:nth-child(3){
+    width: 5em;
+}
+table tbody td:nth-child(3) img{
+   filter: contrast(1);
+}
+
+table tbody td:nth-child(1) {
+   width: 8em;
+}
+
+table tbody td input{
+   margin-right: 140px;
+}
+
+#addResetButton{
+   margin: 150px;
+}
+
+#categorySelect{
+   width: 15%;
+}
+
+caption {
+   background-color: #95BEF0;
+      padding: 0.5em 0.5em; 
+      font-weight: bold;
+      font-size: 1.2em
+}
+
+#shopCart {
+   vertical-align:middle;
+   
+}
+
+#darkToggle{
+   float: right;
+   width: 50px;
+   height: 35px;
+   border-radius: 60px;
+   background-color: black;
+   cursor: pointer;
+
+}
+#darkToggle .button{
+   float: left;
+   width: 28px;
+   height: 35px;
+   background-color: white;
+   border-radius: 50%;
+   transform: scale(0.9);
+   
+}
+
+#darkToggle.dark .button{
+   float: right;
+   
+   background-color: black;
+}
+    
+#darkToggle.dark{
+   background-color: white;
+}
