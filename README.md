@@ -47,6 +47,22 @@
 
 AZBook is an e-commerce platform dedicated to book sales. This project has developed the main webpage for the AZBook online bookstore.
 
+* The main page should display the website name and the main information of each book. 
+
+Users can search books based on their title. The rows that match the search term will be highlighted with a coloured background of your choice. 
+
+Users should be able to filter books through their categories (only books with the selected category are shown in the list). 
+
+The Search and Filter functions should work together and combine the result of each other.
+
+Users can select books and add them to the “Shopping Cart” through check boxes and a button “Add to cart”.  Users can only select one book at a time through checkbox.
+
+A quantity input box will be prompted when the users select a book item and click "Add to cart" button. The page will show a popup asking about the quantity of the selected item. 
+
+Users can clear the shopping cart through the “Reset the cart” button. 
+
+The page provides a checkbox (at the top of the page) to enable "Dark Mode".
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -91,7 +107,7 @@ A quantity input box will be prompted when the users select a book item and clic
 
 Users can clear the shopping cart through the “Reset the cart” button. 
 
-The page provides a checkbox (at the top of the page) to enable "Dark Mode" .
+The page provides a checkbox (at the top of the page) to enable "Dark Mode".
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
