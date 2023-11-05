@@ -62,18 +62,18 @@ AZBook is an e-commerce platform dedicated to book sales. This project has devel
 
 <!-- GETTING STARTED -->
 ## Getting Started
-
+These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
+Our web development project use HTML, CSS, JavaScript, Node.js. So it's better to know these techniques before you download the code.
 
-* Java JDK version 8 or higher
-* Gradle
-  ```sh
-  $ brew install gradle
-  ```
+* [Node.js Install Instruction](https://nodejs.org/en/download/package-manager#windows-1)
 
 ### Depolyment
-1. Download all and unzip the folder
+1. Install Node.js
+   ```sh
+   gradle run
+   ```
 2. Use the gradle command to run
    ```sh
    gradle run
