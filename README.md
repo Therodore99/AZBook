@@ -122,7 +122,7 @@ If the player loses all of their lives, display a screen saying "Game over”.
 [product-screenshot]: demoImage/GameDemo.png
 [JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
 [JavaScript-url]: [https://www.java.com/en/](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
-[HTML5]: [https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
+[HTML5]: https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white
 [HTML5-url]: https://www.w3schools.com/html/
 [CSS]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
 [CSS-url]: https://www.w3schools.com/css/
