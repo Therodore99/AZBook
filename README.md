@@ -43,7 +43,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 AZBook is an e-commerce platform dedicated to book sales. This project has developed the main webpage for the AZBook online bookstore.
 
