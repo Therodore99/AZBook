@@ -70,14 +70,7 @@ Our web development project use HTML, CSS, JavaScript, Node.js. So it's better t
 * [Node.js Install Instruction](https://nodejs.org/en/download/package-manager#windows-1)
 
 ### Depolyment
-1. Install Node.js
-   ```sh
-   gradle run
-   ```
-2. Use the gradle command to run
-   ```sh
-   gradle run
-   ```
+After installing Node.js, open your terminal (mac/linux) or command prompt (windows) and run this command: "npm install http-server -g" (put sudo before npm if you are mac/linux users). If http-server installation is complete, go to your project directory by using "cd" command and run command "http-server". It will provide you url(s) to access your project from your browser, you usually can access your project from this address: "http://127.0.0.1:8080".
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
