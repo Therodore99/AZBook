@@ -5,7 +5,7 @@
 <br />
 <div align="center">
   
-<h1 align="center">Wizard-Labyrinth</h1>
+<h1 align="center">eCommerce-Web-Application</h1>
 
   <p align="center">
     <br />
@@ -52,7 +52,7 @@ This project is a survival game developed in Java, with graphics using the Proce
 
 
 ### Built With
-* [![Java][Java]][Java-url]
+* [![JavaScript][JavaScript]][JavaScript-url]
 * [![Gradle][Gradle]][Gradle-url]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,7 +118,7 @@ If the player loses all of their lives, display a screen saying "Game over”.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: demoImage/GameDemo.png
-[Java]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
-[Java-url]: https://www.java.com/en/
+[JavaScript]: https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E
+[JavaScript-url]: [https://www.java.com/en/](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction)
 [Gradle]: https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white
 [Gradle-url]: https://gradle.org/
