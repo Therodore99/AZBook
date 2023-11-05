@@ -5,11 +5,11 @@
 <br />
 <div align="center">
   
-<h1 align="center">eCommerce-Web-Application</h1>
+<h1 align="center">AZBook</h1>
 
   <p align="center">
     <br />
-    <a href="https://github.com/Therodore99/Wizard-Labyrinth"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Therodore99/AZBook"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
