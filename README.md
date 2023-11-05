@@ -77,16 +77,21 @@ After installing Node.js, open your terminal (mac/linux) or command prompt (wind
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+The main page should display the website name and the main information of each book. 
 
-### How to play
-The program detects the player's actions on the keyboard. When the player presses the up, down, left and right keys, the wizard moves according to the direction. When the player presses the space bar, the wizard fires fireballs. gremlins are destroyed when the fireball touches any part of the gremlins. Players can also press the Tab key to launch a frozen puck. The balls freeze gremlins so they can't move.After 10 seconds (600 frames), the map generates a powerup based on the location specified in the level1.txt file. When wizard touches powerup, its speed immediately increases to 4 pixels per frame for 600 frames. The user can view the remaining time of the acceleration effect through the progress bar in the bottom bar. When used by wizard, powerup regenerates at a random legal location (without any walls) on the current map.
+Users can search books based on their title. The rows that match the search term will be highlighted with a coloured background of your choice. 
 
-### Win and lose conditions
-The current level is completed when the player reaches the exit. If there is another level, that level is then loaded with the player starting in the position defined in the map layout. The player retains the number of lives they had previously. 
+Users should be able to filter books through their categories (only books with the selected category are shown in the list). 
 
-If there are no more levels and the player wins, display a screen saying "You win". 
+The Search and Filter functions should work together and combine the result of each other.
 
-If the player loses all of their lives, display a screen saying "Game over”.
+Users can select books and add them to the “Shopping Cart” through check boxes and a button “Add to cart”.  Users can only select one book at a time through checkbox.
+
+A quantity input box will be prompted when the users select a book item and click "Add to cart" button. The page will show a popup asking about the quantity of the selected item. 
+
+Users can clear the shopping cart through the “Reset the cart” button. 
+
+The page provides a checkbox (at the top of the page) to enable "Dark Mode" .
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
