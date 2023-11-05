@@ -1,82 +1,124 @@
-# COMP5347/COMP4347  Assignment 2 - eCommerce Web Application
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+<a name="readme-top"></a>
 
-In this assignment, our team will work to build an eCommerce three-tier web application.  The next section gives a short introduction to the functions of the website. Our websites include：
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  
+<h1 align="center">Wizard-Labyrinth</h1>
 
-1. Main Page: The main page should display key items about the web application that are always shown in the top bar
-   a search bar to find phone (based on the title) with a search button.
-   a checkout button.
-   a sign-in button/two buttons instead if logged-in (profile and signout buttons)
-   a drop-down selection to filter based on the brand .
-   a range slider to filter the items based on maximum price.
+  <p align="center">
+    <br />
+    <a href="https://github.com/Therodore99/Wizard-Labyrinth"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
 
-2. Sign-in and/or Sign-up Page:  The user will be redirected to this page if the user tries to add an item to the cart without logging in first or if the user clicks the “sign in” button on the top bar in the Main Page. This page provides two options: Sign-up and Login.
 
-3. Checkout Page: This page will be shown when the user clicks the checkout button on the top bar of the Main Page. This page will show these details:
 
-   A back button to go back to the previous shown page.
-   All of added items in the cart with these information
-   The title of the phone listing.
-   The price of each item.
-   The quantity selected.
-   A button and textbox to modify the quantity of the item (selecting 0 will remove the item.
-   A button to remove an item.
-   A text that shows the total price of selected items.
-   A button to confirm the transaction.
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+  </ol>
+</details>
 
-4. User Page
-   This page will be shown when the user has logged in and click the “profile” button in the top bar of the Main Page. This page has four tabs/modes:
 
-   Edit profile: the page shows editable textboxes for first name, last name, email that are pre-filled with the current value. The page includes a button “Update profile” to update the data in the database. When the button is clicked, the user needs to fill in the correct password first.
-   Change password: the page shows two textboxes where the first asking the current password and the second asking the new password. The page also includes a button to confirm this process. The web application will send an email to notify the user that the password has been changed.
-   Manage listings: the page has a button to add a new listing that requires all details (e.g. title, price, etc.). This page also shows the list of phone listings created/associated to this user. The user should be able to enable/disable each listing and remove the listing item.
-   View comments: the page shows a list of comments for each phone listing that is owned by the user. The user can only read the comments, but there is no delete button provided. All hidden comments will also be shown in this page with button(s) to hide/show the comments.
 
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+This project is a survival game developed in Java, with graphics using the Processing library and dependency management via Gradle. Players control a wizard navigating through the map. The goal of the game is to avoid enemies known as sprites and their attacks, and to reach the exit to advance to the next level.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+### Built With
+* [![Java][Java]][Java-url]
+* [![Gradle][Gradle]][Gradle-url]
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- GETTING STARTED -->
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development.
 
 ### Prerequisites
 
-Our web development project use **HTML, CSS, JavaScript,  Axios, React, Node.js, MongoDB**. So it's better to know these techniques before you download the code.
+* Java JDK version 8 or higher
+* Gradle
+  ```sh
+  $ brew install gradle
+  ```
 
-### Installing
+### Depolyment
+1. Download all and unzip the folder
+2. Use the gradle command to run
+   ```sh
+   gradle run
+   ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Before you can run the program, you must download and install some software to ensure that the development environment runs stably.
 
-1. [Node.js Install Instruction](https://nodejs.org/en/download/package-manager#windows-1)
-2. [MongoDB Install Instruction](https://www.mongodb.com/docs/manual/installation/)
 
-## Deployment
+<!-- USAGE EXAMPLES -->
+## Usage
 
-In this section we will teach you how to deploy a website on your own machine
+### How to play
+The program detects the player's actions on the keyboard. When the player presses the up, down, left and right keys, the wizard moves according to the direction. When the player presses the space bar, the wizard fires fireballs. gremlins are destroyed when the fireball touches any part of the gremlins. Players can also press the Tab key to launch a frozen puck. The balls freeze gremlins so they can't move.After 10 seconds (600 frames), the map generates a powerup based on the location specified in the level1.txt file. When wizard touches powerup, its speed immediately increases to 4 pixels per frame for 600 frames. The user can view the remaining time of the acceleration effect through the progress bar in the bottom bar. When used by wizard, powerup regenerates at a random legal location (without any walls) on the current map.
 
-First, access to "server" and "client",  Separately, run the following code with CMD for installing modules:
+### Win and lose conditions
+The current level is completed when the player reaches the exit. If there is another level, that level is then loaded with the player starting in the position defined in the map layout. The player retains the number of lives they had previously. 
 
-```
-npm install
-```
+If there are no more levels and the player wins, display a screen saying "You win". 
 
-Second,run the following code with CMD separately:
+If the player loses all of their lives, display a screen saying "Game over”.
 
-```
-npm start
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Open [http://localhost:3000](http://localhost:3000)(Maybe you have different one. In fact, the machine will jump to your browser itself ) to view it in your browser.
 
-## Built With
 
-* [Node.js](https://nodejs.org/en) - The web back-end framework used
-* [MongoDB](https://www.mongodb.com/cloud/atlas/lp/try4?utm_source=google&utm_campaign=search_gs_pl_evergreen_atlas_core_prosp-brand_gic-null_apac-au_ps-all_desktop_eng_lead&utm_term=mongodb&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624341&adgroup=115749705743&cq_cmp=12212624341&gad=1&gclid=Cj0KCQjw0tKiBhC6ARIsAAOXutmdtOA4xTtFsCdLi4PJKRwLeDY9TnlXL7CPjxwPn5OtjGyeDvhEe0IaAp2REALw_wcB) - The web back-end storage used
-* [JavaScript](https://www.javascript.com/): Used to implement both front and back end of the application
 
-## Contributing
 
-1. [Phuong Anh Dang](https://github.sydney.edu.au/Pdan8803): focus on Main page and Sign-in, Sign-up page, manage listing of user page.
-2. [Guohao Tong](https://github.sydney.edu.au/gton2618): Focus on Main page and CheckOut page
-3. [Xiaorong Huang](https://github.sydney.edu.au/xhua5291): Focus on Sign-in, Sign-up page and User page.
 
-## Versioning
 
-We use GitHub for versioning.  
 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
+[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
+[forks-url]: https://github.com/github_username/repo_name/network/members
+[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
+[stars-url]: https://github.com/github_username/repo_name/stargazers
+[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
+[issues-url]: https://github.com/github_username/repo_name/issues
+[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
+[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/linkedin_username
+[product-screenshot]: demoImage/GameDemo.png
+[Java]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
+[Java-url]: https://www.java.com/en/
+[Gradle]: https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white
+[Gradle-url]: https://gradle.org/
